@@ -1,0 +1,133 @@
+{
+  "partition": "development only",
+  "queries": 1000,
+  "recall_at_50": 0.8584904761904761,
+  "queries_with_retrieval_misses": 44,
+  "queries_with_selector_misses": 110,
+  "missing_positive_items": {
+    "retrieval_misses": 44,
+    "selector_misses": 116
+  },
+  "macro_recall_loss": {
+    "retrieval_misses": 0.04283333333333333,
+    "selector_misses": 0.09867619047619047
+  },
+  "examples": {
+    "retrieval_misses": [
+      {
+        "query": "аренда баги",
+        "positives": 1,
+        "retrieval_misses": 1,
+        "selector_misses": 0,
+        "recall": 0.0
+      },
+      {
+        "query": "плотник",
+        "positives": 1,
+        "retrieval_misses": 1,
+        "selector_misses": 0,
+        "recall": 0.0
+      },
+      {
+        "query": "сборка мебели",
+        "positives": 1,
+        "retrieval_misses": 1,
+        "selector_misses": 0,
+        "recall": 0.0
+      },
+      {
+        "query": "ремонт маслянных поддонов",
+        "positives": 1,
+        "retrieval_misses": 1,
+        "selector_misses": 0,
+        "recall": 0.0
+      },
+      {
+        "query": "маникюр",
+        "positives": 1,
+        "retrieval_misses": 1,
+        "selector_misses": 0,
+        "recall": 0.0
+      },
+      {
+        "query": "ремонт компрессоров автомобиля",
+        "positives": 1,
+        "retrieval_misses": 1,
+        "selector_misses": 0,
+        "recall": 0.0
+      },
+      {
+        "query": "8105052447",
+        "positives": 1,
+        "retrieval_misses": 1,
+        "selector_misses": 0,
+        "recall": 0.0
+      },
+      {
+        "query": "тур для двоих",
+        "positives": 1,
+        "retrieval_misses": 1,
+        "selector_misses": 0,
+        "recall": 0.0
+      }
+    ],
+    "selector_misses": [
+      {
+        "query": "диетолог онлайн",
+        "positives": 1,
+        "retrieval_misses": 0,
+        "selector_misses": 1,
+        "recall": 0.0
+      },
+      {
+        "query": "выравнивание деревянного дома",
+        "positives": 1,
+        "retrieval_misses": 0,
+        "selector_misses": 1,
+        "recall": 0.0
+      },
+      {
+        "query": "грузовой автосервис газ маз",
+        "positives": 1,
+        "retrieval_misses": 0,
+        "selector_misses": 1,
+        "recall": 0.0
+      },
+      {
+        "query": "отмоска вокруг дома",
+        "positives": 1,
+        "retrieval_misses": 0,
+        "selector_misses": 1,
+        "recall": 0.0
+      },
+      {
+        "query": "массаж",
+        "positives": 1,
+        "retrieval_misses": 0,
+        "selector_misses": 1,
+        "recall": 0.0
+      },
+      {
+        "query": "выкуп ваз",
+        "positives": 1,
+        "retrieval_misses": 0,
+        "selector_misses": 1,
+        "recall": 0.0
+      },
+      {
+        "query": "наращивание ресниц мокрый эффект аниме",
+        "positives": 1,
+        "retrieval_misses": 0,
+        "selector_misses": 1,
+        "recall": 0.0
+      },
+      {
+        "query": "вывоз мусора",
+        "positives": 2,
+        "retrieval_misses": 0,
+        "selector_misses": 1,
+        "recall": 0.5
+      }
+    ]
+  }
+}

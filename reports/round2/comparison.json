@@ -1,0 +1,175 @@
+{
+  "experiments": [
+    {
+      "name": "original_hgb",
+      "dev_recall": 0.8553333333333333,
+      "tune_recall": 0.8602,
+      "confirmation_recall": 0.8504666666666667,
+      "delta": 0.0,
+      "paired_dev_delta_ci95": [
+        0.0,
+        0.0
+      ],
+      "backend": "hgb",
+      "model": "artifacts/original/selector.joblib"
+    },
+    {
+      "name": "hgb_pool300",
+      "dev_recall": 0.8547,
+      "tune_recall": 0.8545333333333333,
+      "confirmation_recall": 0.8548666666666667,
+      "delta": -0.0006333333333333333,
+      "paired_dev_delta_ci95": [
+        -0.011,
+        0.010069166666666653
+      ],
+      "backend": "hgb",
+      "model": "artifacts/pool300/selector.joblib"
+    },
+    {
+      "name": "catboost/classifier",
+      "dev_recall": 0.8504333333333334,
+      "tune_recall": 0.8559333333333334,
+      "confirmation_recall": 0.8449333333333334,
+      "delta": -0.0049,
+      "paired_dev_delta_ci95": [
+        -0.012166666666666668,
+        0.0023
+      ],
+      "backend": "catboost",
+      "model": "artifacts/catboost/classifier.joblib"
+    },
+    {
+      "name": "catboost/ranker",
+      "dev_recall": 0.8171166666666667,
+      "tune_recall": 0.8173666666666666,
+      "confirmation_recall": 0.8168666666666666,
+      "delta": -0.03821666666666667,
+      "paired_dev_delta_ci95": [
+        -0.05043416666666667,
+        -0.025
+      ],
+      "backend": "catboost",
+      "model": "artifacts/catboost/ranker.joblib"
+    },
+    {
+      "name": "catboost_enhanced/classifier",
+      "dev_recall": 0.8467333333333333,
+      "tune_recall": 0.8493333333333333,
+      "confirmation_recall": 0.8441333333333333,
+      "delta": -0.0086,
+      "paired_dev_delta_ci95": [
+        -0.016767499999999998,
+        -0.00029916666666667105
+      ],
+      "backend": "catboost",
+      "model": "artifacts/catboost_enhanced/classifier.joblib"
+    },
+    {
+      "name": "catboost_enhanced/ranker",
+      "dev_recall": 0.8244166666666668,
+      "tune_recall": 0.8207666666666666,
+      "confirmation_recall": 0.8280666666666666,
+      "delta": -0.030916666666666665,
+      "paired_dev_delta_ci95": [
+        -0.043250416666666666,
+        -0.01851625
+      ],
+      "backend": "catboost",
+      "model": "artifacts/catboost_enhanced/ranker.joblib"
+    },
+    {
+      "name": "catboost_numeric/classifier",
+      "dev_recall": 0.8554333333333334,
+      "tune_recall": 0.8579333333333334,
+      "confirmation_recall": 0.8529333333333334,
+      "delta": 9.999999999999987e-05,
+      "paired_dev_delta_ci95": [
+        -0.007634166666666668,
+        0.007667499999999995
+      ],
+      "backend": "catboost",
+      "model": "artifacts/catboost_numeric/classifier.joblib"
+    },
+    {
+      "name": "catboost_numeric800/classifier",
+      "dev_recall": 0.8533999999999999,
+      "tune_recall": 0.8618666666666667,
+      "confirmation_recall": 0.8449333333333334,
+      "delta": -0.001933333333333334,
+      "paired_dev_delta_ci95": [
+        -0.0105,
+        0.00633583333333332
+      ],
+      "backend": "catboost",
+      "model": "artifacts/catboost_numeric800/classifier.joblib"
+    },
+    {
+      "name": "catboost_pool300/classifier",
+      "dev_recall": 0.8584904761904761,
+      "tune_recall": 0.860247619047619,
+      "confirmation_recall": 0.8567333333333333,
+      "delta": 0.003157142857142857,
+      "paired_dev_delta_ci95": [
+        -0.00834535714285714,
+        0.01501452380952381
+      ],
+      "backend": "catboost",
+      "model": "artifacts/catboost_pool300/classifier.joblib"
+    },
+    {
+      "name": "catboost_pool300_numeric/classifier",
+      "dev_recall": 0.8548571428571429,
+      "tune_recall": 0.864847619047619,
+      "confirmation_recall": 0.8448666666666667,
+      "delta": -0.0004761904761904765,
+      "paired_dev_delta_ci95": [
+        -0.012644285714285714,
+        0.011729523809523778
+      ],
+      "backend": "catboost",
+      "model": "artifacts/catboost_pool300_numeric/classifier.joblib"
+    },
+    {
+      "name": "catboost_softmax/ranker",
+      "dev_recall": 0.8392000000000001,
+      "tune_recall": 0.8395333333333334,
+      "confirmation_recall": 0.8388666666666666,
+      "delta": -0.016133333333333333,
+      "paired_dev_delta_ci95": [
+        -0.0271375,
+        -0.0050975000000000135
+      ],
+      "backend": "catboost",
+      "model": "artifacts/catboost_softmax/ranker.joblib"
+    },
+    {
+      "name": "original_catboost_rrf",
+      "dev_recall": 0.8505999999999999,
+      "tune_recall": 0.8569333333333334,
+      "confirmation_recall": 0.8442666666666666,
+      "delta": -0.004733333333333333,
+      "paired_dev_delta_ci95": [
+        -0.011,
+        0.001
+      ],
+      "backend": "diagnostic",
+      "model": null
+    }
+  ],
+  "recommended": {
+    "name": "catboost_pool300/classifier",
+    "dev_recall": 0.8584904761904761,
+    "tune_recall": 0.860247619047619,
+    "confirmation_recall": 0.8567333333333333,
+    "delta": 0.003157142857142857,
+    "paired_dev_delta_ci95": [
+      -0.00834535714285714,
+      0.01501452380952381
+    ],
+    "backend": "catboost",
+    "model": "artifacts/catboost_pool300/classifier.joblib"
+  },
+  "selection_rule": "At least +0.002 dev recall, improved tuning half, no confirmation-half regression; choose highest tuning recall among eligible models.",
+  "test_note": "No new reserved-test evaluation. Bootstrap intervals are development diagnostics after model selection."
+}

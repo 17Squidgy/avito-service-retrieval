@@ -1,0 +1,9 @@
+{
+  "model": "artifacts/catboost_pool300/classifier.joblib",
+  "submission": "answer.csv",
+  "sha256": "39293118374a94e4473bf3caf74f023b77642cc943b27c529d2942bd1bc8d22e",
+  "dev_recall": 0.8584904761904761,
+  "reserved_test_recall": null,
+  "original_submission": "artifacts/original/answer.csv",
+  "official_attempts_used": 0
+}

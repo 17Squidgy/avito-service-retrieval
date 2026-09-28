@@ -1,0 +1,215 @@
+{
+  "selected_method": "learned",
+  "dev": {
+    "rrf": {
+      "recall_at_50": 0.7566071428571429,
+      "candidate_union_recall": 0.9186666666666666,
+      "queries": 1000,
+      "mean_pool_size": 580.336,
+      "generators_recall_at_50": {
+        "bm25": 0.22769999999999999,
+        "char": 0.1724,
+        "history": 0.044009523809523804,
+        "bm25_context": 0.7305738095238096,
+        "char_context": 0.6189833333333333,
+        "history_context": 0.07037857142857143,
+        "exact_history_context": 0.01977857142857143,
+        "bm25_local": 0.6502071428571429,
+        "bm25_nearby": 0.7215809523809523,
+        "popularity_context": 0.017,
+        "dense": 0.22169999999999998,
+        "dense_context": 0.7093976190476191,
+        "dense_local": 0.6331476190476191
+      },
+      "unique_union_recall_contribution": {
+        "bm25": 0.002,
+        "char": 0.0,
+        "history": 0.0,
+        "bm25_context": 0.007,
+        "char_context": 0.002142857142857143,
+        "history_context": 0.001,
+        "exact_history_context": 0.0,
+        "bm25_local": 0.001,
+        "bm25_nearby": 0.015,
+        "popularity_context": 0.0,
+        "dense": 0.002333333333333333,
+        "dense_context": 0.001,
+        "dense_local": 0.0025
+      },
+      "segments": {
+        "seen_text": {
+          "queries": 344,
+          "recall_at_50": 0.7682378183831672
+        },
+        "unseen_text": {
+          "queries": 656,
+          "recall_at_50": 0.7505081300813009
+        },
+        "category=114": {
+          "queries": 1000,
+          "recall_at_50": 0.7566071428571429
+        }
+      }
+    },
+    "heuristic": {
+      "recall_at_50": 0.7142666666666666,
+      "candidate_union_recall": 0.9186666666666666,
+      "queries": 1000,
+      "mean_pool_size": 580.336,
+      "generators_recall_at_50": {
+        "bm25": 0.22769999999999999,
+        "char": 0.1724,
+        "history": 0.044009523809523804,
+        "bm25_context": 0.7305738095238096,
+        "char_context": 0.6189833333333333,
+        "history_context": 0.07037857142857143,
+        "exact_history_context": 0.01977857142857143,
+        "bm25_local": 0.6502071428571429,
+        "bm25_nearby": 0.7215809523809523,
+        "popularity_context": 0.017,
+        "dense": 0.22169999999999998,
+        "dense_context": 0.7093976190476191,
+        "dense_local": 0.6331476190476191
+      },
+      "unique_union_recall_contribution": {
+        "bm25": 0.002,
+        "char": 0.0,
+        "history": 0.0,
+        "bm25_context": 0.007,
+        "char_context": 0.002142857142857143,
+        "history_context": 0.001,
+        "exact_history_context": 0.0,
+        "bm25_local": 0.001,
+        "bm25_nearby": 0.015,
+        "popularity_context": 0.0,
+        "dense": 0.002333333333333333,
+        "dense_context": 0.001,
+        "dense_local": 0.0025
+      },
+      "segments": {
+        "seen_text": {
+          "queries": 344,
+          "recall_at_50": 0.7522286821705426
+        },
+        "unseen_text": {
+          "queries": 656,
+          "recall_at_50": 0.694359756097561
+        },
+        "category=114": {
+          "queries": 1000,
+          "recall_at_50": 0.7142666666666666
+        }
+      }
+    },
+    "learned": {
+      "recall_at_50": 0.8553333333333333,
+      "candidate_union_recall": 0.9186666666666666,
+      "queries": 1000,
+      "mean_pool_size": 580.336,
+      "generators_recall_at_50": {
+        "bm25": 0.22769999999999999,
+        "char": 0.1724,
+        "history": 0.044009523809523804,
+        "bm25_context": 0.7305738095238096,
+        "char_context": 0.6189833333333333,
+        "history_context": 0.07037857142857143,
+        "exact_history_context": 0.01977857142857143,
+        "bm25_local": 0.6502071428571429,
+        "bm25_nearby": 0.7215809523809523,
+        "popularity_context": 0.017,
+        "dense": 0.22169999999999998,
+        "dense_context": 0.7093976190476191,
+        "dense_local": 0.6331476190476191
+      },
+      "unique_union_recall_contribution": {
+        "bm25": 0.002,
+        "char": 0.0,
+        "history": 0.0,
+        "bm25_context": 0.007,
+        "char_context": 0.002142857142857143,
+        "history_context": 0.001,
+        "exact_history_context": 0.0,
+        "bm25_local": 0.001,
+        "bm25_nearby": 0.015,
+        "popularity_context": 0.0,
+        "dense": 0.002333333333333333,
+        "dense_context": 0.001,
+        "dense_local": 0.0025
+      },
+      "segments": {
+        "seen_text": {
+          "queries": 344,
+          "recall_at_50": 0.8822674418604651
+        },
+        "unseen_text": {
+          "queries": 656,
+          "recall_at_50": 0.841209349593496
+        },
+        "category=114": {
+          "queries": 1000,
+          "recall_at_50": 0.8553333333333333
+        }
+      }
+    }
+  },
+  "test": {
+    "recall_at_50": 0.844441391941392,
+    "candidate_union_recall": 0.9252698412698412,
+    "queries": 1000,
+    "mean_pool_size": 584.246,
+    "generators_recall_at_50": {
+      "bm25": 0.19524358974358974,
+      "char": 0.1566871794871795,
+      "history": 0.05590366300366301,
+      "bm25_context": 0.712162393162393,
+      "char_context": 0.6124391941391941,
+      "history_context": 0.08280366300366301,
+      "exact_history_context": 0.026773137973137975,
+      "bm25_local": 0.6413354700854701,
+      "bm25_nearby": 0.6938668803418805,
+      "popularity_context": 0.0321984126984127,
+      "dense": 0.19487118437118436,
+      "dense_context": 0.7156212759462759,
+      "dense_local": 0.6585379426129426
+    },
+    "unique_union_recall_contribution": {
+      "bm25": 0.001,
+      "char": 0.0,
+      "history": 0.0,
+      "bm25_context": 0.0125,
+      "char_context": 0.0025,
+      "history_context": 0.0,
+      "exact_history_context": 0.001,
+      "bm25_local": 0.004,
+      "bm25_nearby": 0.006,
+      "popularity_context": 0.0,
+      "dense": 0.0025,
+      "dense_context": 0.003,
+      "dense_local": 0.004333333333333333
+    },
+    "segments": {
+      "seen_text": {
+        "queries": 339,
+        "recall_at_50": 0.8653630047435358
+      },
+      "unseen_text": {
+        "queries": 661,
+        "recall_at_50": 0.8337115481593546
+      },
+      "category=114": {
+        "queries": 1000,
+        "recall_at_50": 0.844441391941392
+      }
+    }
+  },
+  "corpus_items": 515895,
+  "fit_queries": 4000,
+  "elapsed_seconds": 469.20091009140015,
+  "validation_note": "Context-disjoint labels; full union of training and benchmark items. Larger corpus than benchmark; no temporal split is possible.",
+  "selected_experiment": "dense",
+  "development_comparison": {
+    "sparse": 0.8246166666666667,
+    "dense": 0.8553333333333333
+  },
+  "selection_note": "Experiment and model frozen on development scores before reserved-test evaluation."
+}

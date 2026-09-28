@@ -1,0 +1,22 @@
+{
+  "queries": 300,
+  "seed": 913,
+  "model_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "selection_note": "Random development subset; no reserved-test scoring.",
+  "variants": {
+    "hypothesis": {
+      "baseline_pool_recall": 0.915,
+      "expanded_pool_recall": 0.9216666666666666,
+      "incremental_pool_recall": 0.006666666666666667,
+      "standalone_context_recall_at_50": 0.6192698412698413,
+      "increment_over_pool300": 0.0033333333333333335
+    },
+    "blend": {
+      "baseline_pool_recall": 0.915,
+      "expanded_pool_recall": 0.9216666666666666,
+      "incremental_pool_recall": 0.006666666666666667,
+      "standalone_context_recall_at_50": 0.6803253968253968,
+      "increment_over_pool300": 0.0
+    }
+  }
+}

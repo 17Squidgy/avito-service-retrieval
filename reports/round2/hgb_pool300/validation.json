@@ -1,0 +1,162 @@
+{
+  "selected_method": "learned",
+  "dev": {
+    "rrf": {
+      "recall_at_50": 0.7614071428571428,
+      "candidate_union_recall": 0.9571666666666666,
+      "queries": 1000,
+      "mean_pool_size": 1526.132,
+      "generators_recall_at_50": {
+        "bm25": 0.22769999999999999,
+        "char": 0.1724,
+        "history": 0.044009523809523804,
+        "bm25_context": 0.7305738095238096,
+        "char_context": 0.6189833333333333,
+        "history_context": 0.07037857142857143,
+        "exact_history_context": 0.01977857142857143,
+        "bm25_local": 0.6502071428571429,
+        "bm25_nearby": 0.7215809523809523,
+        "popularity_context": 0.017,
+        "dense": 0.22169999999999998,
+        "dense_context": 0.7093976190476191,
+        "dense_local": 0.6331476190476191
+      },
+      "unique_union_recall_contribution": {
+        "bm25": 0.0,
+        "char": 0.0,
+        "history": 0.0,
+        "bm25_context": 0.005,
+        "char_context": 0.0,
+        "history_context": 0.001,
+        "exact_history_context": 0.0,
+        "bm25_local": 0.0,
+        "bm25_nearby": 0.01,
+        "popularity_context": 0.0,
+        "dense": 0.001,
+        "dense_context": 0.003,
+        "dense_local": 0.002
+      },
+      "segments": {
+        "seen_text": {
+          "queries": 344,
+          "recall_at_50": 0.7720168881506091
+        },
+        "unseen_text": {
+          "queries": 656,
+          "recall_at_50": 0.7558434959349594
+        },
+        "category=114": {
+          "queries": 1000,
+          "recall_at_50": 0.7614071428571428
+        }
+      }
+    },
+    "heuristic": {
+      "recall_at_50": 0.7142666666666666,
+      "candidate_union_recall": 0.9571666666666666,
+      "queries": 1000,
+      "mean_pool_size": 1526.132,
+      "generators_recall_at_50": {
+        "bm25": 0.22769999999999999,
+        "char": 0.1724,
+        "history": 0.044009523809523804,
+        "bm25_context": 0.7305738095238096,
+        "char_context": 0.6189833333333333,
+        "history_context": 0.07037857142857143,
+        "exact_history_context": 0.01977857142857143,
+        "bm25_local": 0.6502071428571429,
+        "bm25_nearby": 0.7215809523809523,
+        "popularity_context": 0.017,
+        "dense": 0.22169999999999998,
+        "dense_context": 0.7093976190476191,
+        "dense_local": 0.6331476190476191
+      },
+      "unique_union_recall_contribution": {
+        "bm25": 0.0,
+        "char": 0.0,
+        "history": 0.0,
+        "bm25_context": 0.005,
+        "char_context": 0.0,
+        "history_context": 0.001,
+        "exact_history_context": 0.0,
+        "bm25_local": 0.0,
+        "bm25_nearby": 0.01,
+        "popularity_context": 0.0,
+        "dense": 0.001,
+        "dense_context": 0.003,
+        "dense_local": 0.002
+      },
+      "segments": {
+        "seen_text": {
+          "queries": 344,
+          "recall_at_50": 0.7522286821705426
+        },
+        "unseen_text": {
+          "queries": 656,
+          "recall_at_50": 0.694359756097561
+        },
+        "category=114": {
+          "queries": 1000,
+          "recall_at_50": 0.7142666666666666
+        }
+      }
+    },
+    "learned": {
+      "recall_at_50": 0.8547,
+      "candidate_union_recall": 0.9571666666666666,
+      "queries": 1000,
+      "mean_pool_size": 1526.132,
+      "generators_recall_at_50": {
+        "bm25": 0.22769999999999999,
+        "char": 0.1724,
+        "history": 0.044009523809523804,
+        "bm25_context": 0.7305738095238096,
+        "char_context": 0.6189833333333333,
+        "history_context": 0.07037857142857143,
+        "exact_history_context": 0.01977857142857143,
+        "bm25_local": 0.6502071428571429,
+        "bm25_nearby": 0.7215809523809523,
+        "popularity_context": 0.017,
+        "dense": 0.22169999999999998,
+        "dense_context": 0.7093976190476191,
+        "dense_local": 0.6331476190476191
+      },
+      "unique_union_recall_contribution": {
+        "bm25": 0.0,
+        "char": 0.0,
+        "history": 0.0,
+        "bm25_context": 0.005,
+        "char_context": 0.0,
+        "history_context": 0.001,
+        "exact_history_context": 0.0,
+        "bm25_local": 0.0,
+        "bm25_nearby": 0.01,
+        "popularity_context": 0.0,
+        "dense": 0.001,
+        "dense_context": 0.003,
+        "dense_local": 0.002
+      },
+      "segments": {
+        "seen_text": {
+          "queries": 344,
+          "recall_at_50": 0.8813953488372093
+        },
+        "unseen_text": {
+          "queries": 656,
+          "recall_at_50": 0.8407012195121951
+        },
+        "category=114": {
+          "queries": 1000,
+          "recall_at_50": 0.8547
+        }
+      }
+    }
+  },
+  "test": {
+    "status": "withheld; pass --final-test after selecting the final configuration"
+  },
+  "corpus_items": 515895,
+  "fit_queries": 4000,
+  "elapsed_seconds": 273.04896903038025,
+  "validation_note": "Context-disjoint labels; full union of training and benchmark items. Larger corpus than benchmark; no temporal split is possible."
+}

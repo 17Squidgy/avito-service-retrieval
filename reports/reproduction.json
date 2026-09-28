@@ -1,0 +1,8 @@
+{
+  "command": ".venv/bin/python scripts/reproduce.py --output /tmp/avito_reproduced.csv",
+  "exact_match": true,
+  "sha256": "39293118374a94e4473bf3caf74f023b77642cc943b27c529d2942bd1bc8d22e",
+  "environment": "Python 3.14, macOS ARM, M4 Pro, MPS, requirements-lock.txt",
+  "embedding_cache": "Existing content-addressed item embeddings reused; query embeddings recomputed. Cold-cache and cross-device equality not tested.",
+  "tests_passed": 6
+}

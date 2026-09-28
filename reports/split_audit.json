@@ -1,0 +1,24 @@
+{
+  "history_pairs": 463747,
+  "history_items": 326191,
+  "partitions": {
+    "fit": {
+      "queries": 4000,
+      "seen_text_fraction": 0.347,
+      "positive_item_seen_fraction": 0.37309198921993036,
+      "mean_positives": 1.20525
+    },
+    "dev": {
+      "queries": 1000,
+      "seen_text_fraction": 0.344,
+      "positive_item_seen_fraction": 0.3495047619047619,
+      "mean_positives": 1.139
+    },
+    "test": {
+      "queries": 1000,
+      "seen_text_fraction": 0.339,
+      "positive_item_seen_fraction": 0.37441483516483515,
+      "mean_positives": 1.173
+    }
+  }
+}
